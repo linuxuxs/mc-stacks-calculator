@@ -119,3 +119,47 @@ body {
     border: none;
     font-size: 100px;
 }
+
+/* modile support */
+
+@media (max-width: 768px) {
+    .titleS {
+        font-size: 40px;
+    }
+
+    .description {
+        width: 90%;
+        height: auto;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .menu {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .spider,
+    .steve {
+        display: none;
+    }
+
+    #result {
+        font-size: 40px;
+        position: static;
+        margin: 20px 0;
+    }
+
+    #inp {
+        width: 80%;
+        font-size: 50px;
+        height: 70px;
+    }
+
+    #btn-conv {
+        font-size: 40px;
+        padding: 10px 20px;
+    }
+}
+
